@@ -9,11 +9,8 @@ Esta es una aplicación web del tiempo que muestra información meteorológica a
 - **Pronóstico de 4 días:** Muestra el pronóstico del clima para los próximos 4 días, con temperatura y un ícono que representa el clima (soleado, nublado, lluvioso, etc.).
 - **Detalles adicionales:** Proporciona datos adicionales como precipitación, humedad, y velocidad del viento.
 
-## Capturas de Pantalla
+![Captura de pantalla de la aplicación](screenshot.png)
 
-*(Aquí deberías añadir capturas de pantalla de la aplicación en funcionamiento para que los usuarios tengan una idea visual de la aplicación)*
-
-![Captura de pantalla de la aplicación](ruta/de/la/imagen.jpg)
 
 ## Tecnologías Utilizadas
 
@@ -31,8 +28,8 @@ Esta es una aplicación web del tiempo que muestra información meteorológica a
 ```bash
    git clone https://github.com/CRISHFAS/Aplicacion-del-Tiempo-con-API.git
 ```
-2. Obtén una API Key de OpenWeatherMap
-Ve a OpenWeatherMap y regístrate para obtener una clave API gratuita.
+2. Ve a [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) y regístrate para obtener una clave API gratuita.
+
 
 3. Configura la API Key
 Abre el archivo index.js y reemplaza la variable apiKey con tu propia clave API:
@@ -59,7 +56,8 @@ La aplicación mostrará el clima actual y el pronóstico de los próximos días
 
 ### API Utilizada
 Esta aplicación utiliza la API de OpenWeatherMap para obtener los datos meteorológicos. La API proporciona información detallada sobre el clima actual y pronósticos futuros en formato JSON.
-Documentación de la API de OpenWeatherMap
+[Documentación de la API de OpenWeatherMap](https://openweathermap.org/api)
+
 
 ### Mejoras Futuras
 
